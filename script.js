@@ -65,6 +65,7 @@ function coinClicked() {
   console.log(this);
   // Forhindr gentagne clicks
   let coin = document.querySelector("#coin1_container");
+  // let img = document.querySelector("#coin1_sprite");
 
   coin.removeEventListener("click", coinClicked);
 
